@@ -1,0 +1,13 @@
+spring:
+  profiles: sandbox
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgres://gzvcvign:_9SoDpgBAmSkksZXV6L9c5k1_1gXp416@baasu.db.elephantsql.com:5432/gzvcvign
+    username: gzvcvign
+    password: _9SoDpgBAmSkksZXV6L9c5k1_1gXp416
+    tomcat:
+      max-active: 2
+
+  jpa:
+    generate-ddl: true
